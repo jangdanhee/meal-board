@@ -24,14 +24,21 @@ body {
   box-shadow: 0 4px 15px rgba(125, 126, 126, 0.25);
 }
 .content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 40px 80px;
+  max-width: 768px;
+  min-height: 578px;
+  margin: 161px auto 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  opacity: 1;
 }
 .time-block {
-  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 0;
 }
-
 .date-label {
   font-size: 36px;
   font-weight: 700;
@@ -41,7 +48,7 @@ body {
 }
 .clock {
   font-size: 96px;
-  font-weight: 900;
+  font-weight: 700;
   color: #111;
   letter-spacing: 0.04em;
   line-height: 1;
