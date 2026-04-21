@@ -8,58 +8,44 @@
   </head>
 
   <body>
-    <header class="top-bar">급식 보기</header>
+    <header class="top-bar">
+      <button id="reloadBtn">급식 보기</button>
+    </header>
     <main class="content">
       <div class="time-block">
         <p class="date-label" id="date-display">2026 - 04 - 08</p>
         <p class="clock" id="clock-display">00 : 00 : 00</p>
       </div>
+
       <div class="meal-section">
         <p class="school-name" id="school-heading">4월 8일 광주소마고의</p>
+        <p id="status"></p>
+
         <div class="meal-grid">
           <div class="meal-col">
             <h3 class="meal-title">오늘의 아침은?</h3>
             <div class="meal-card">
-              <div class="meal-list">
-                친환경백미밥<br />
-                바지락순두부찌개<br />
-                피자오믈렛*케첩<br />
-                오리슬라이스햄<br />
-                배추김치<br />
-                골라먹는요플레...
-              </div>
+              <div class="meal-list" id="breakfast"></div>
             </div>
           </div>
+
           <div class="meal-col">
             <h3 class="meal-title">오늘의 점심은?</h3>
             <div class="meal-card">
-              <div class="meal-list">
-                친환경백미밥<br />
-                바지락순두부찌개<br />
-                피자오믈렛*케첩<br />
-                오리슬라이스햄<br />
-                배추김치<br />
-                골라먹는요플레...
-              </div>
+              <div class="meal-list" id="lunch"></div>
             </div>
           </div>
 
           <div class="meal-col">
             <h3 class="meal-title">오늘의 저녁은?</h3>
             <div class="meal-card">
-              <div class="meal-list">
-                친환경백미밥<br />
-                바지락순두부찌개<br />
-                피자오믈렛*케첩<br />
-                오리슬라이스햄<br />
-                배추김치<br />
-                골라먹는요플레...
-              </div>
+              <div class="meal-list" id="dinner"></div>
             </div>
           </div>
         </div>
       </div>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
-<!--주석!-->
