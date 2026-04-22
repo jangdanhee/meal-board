@@ -21,7 +21,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  box-shadow: 0 4px 15px rgba(125, 126, 126, 0.25);
+  box-shadow: 0 4px 15px rgba (0, 5, 28, 0.25);
 }
 .content {
   max-width: 768px;
